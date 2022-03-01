@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA37431B27CD9AF60056BBDA /* haydi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA37430827CD9AF40056BBDA /* haydi.xcdatamodeld */; };
+		EA37431C27CD9AF60056BBDA /* haydi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA37430827CD9AF40056BBDA /* haydi.xcdatamodeld */; };
+		EA37431D27CD9AF60056BBDA /* haydiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37430A27CD9AF40056BBDA /* haydiApp.swift */; };
+		EA37431E27CD9AF60056BBDA /* haydiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37430A27CD9AF40056BBDA /* haydiApp.swift */; };
+		EA37431F27CD9AF60056BBDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37430B27CD9AF40056BBDA /* ContentView.swift */; };
+		EA37432027CD9AF60056BBDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37430B27CD9AF40056BBDA /* ContentView.swift */; };
+		EA37432127CD9AF60056BBDA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37430C27CD9AF40056BBDA /* Persistence.swift */; };
+		EA37432227CD9AF60056BBDA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37430C27CD9AF40056BBDA /* Persistence.swift */; };
+		EA37432327CD9AF60056BBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA37430D27CD9AF60056BBDA /* Assets.xcassets */; };
+		EA37432427CD9AF60056BBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA37430D27CD9AF60056BBDA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA37430927CD9AF40056BBDA /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		EA37430A27CD9AF40056BBDA /* haydiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haydiApp.swift; sourceTree = "<group>"; };
+		EA37430B27CD9AF40056BBDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA37430C27CD9AF40056BBDA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EA37430D27CD9AF60056BBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA37431227CD9AF60056BBDA /* haydi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haydi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA37431827CD9AF60056BBDA /* haydi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haydi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA37431A27CD9AF60056BBDA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA37430F27CD9AF60056BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37431527CD9AF60056BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA37430227CD9AF40056BBDA = {
+			isa = PBXGroup;
+			children = (
+				EA37430727CD9AF40056BBDA /* Shared */,
+				EA37431927CD9AF60056BBDA /* macOS */,
+				EA37431327CD9AF60056BBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA37430727CD9AF40056BBDA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EA37430A27CD9AF40056BBDA /* haydiApp.swift */,
+				EA37430B27CD9AF40056BBDA /* ContentView.swift */,
+				EA37430C27CD9AF40056BBDA /* Persistence.swift */,
+				EA37430D27CD9AF60056BBDA /* Assets.xcassets */,
+				EA37430827CD9AF40056BBDA /* haydi.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EA37431327CD9AF60056BBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA37431227CD9AF60056BBDA /* haydi.app */,
+				EA37431827CD9AF60056BBDA /* haydi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA37431927CD9AF60056BBDA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA37431A27CD9AF60056BBDA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA37431127CD9AF60056BBDA /* haydi (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA37432727CD9AF60056BBDA /* Build configuration list for PBXNativeTarget "haydi (iOS)" */;
+			buildPhases = (
+				EA37430E27CD9AF60056BBDA /* Sources */,
+				EA37430F27CD9AF60056BBDA /* Frameworks */,
+				EA37431027CD9AF60056BBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "haydi (iOS)";
+			productName = "haydi (iOS)";
+			productReference = EA37431227CD9AF60056BBDA /* haydi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA37431727CD9AF60056BBDA /* haydi (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA37432A27CD9AF60056BBDA /* Build configuration list for PBXNativeTarget "haydi (macOS)" */;
+			buildPhases = (
+				EA37431427CD9AF60056BBDA /* Sources */,
+				EA37431527CD9AF60056BBDA /* Frameworks */,
+				EA37431627CD9AF60056BBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "haydi (macOS)";
+			productName = "haydi (macOS)";
+			productReference = EA37431827CD9AF60056BBDA /* haydi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA37430327CD9AF40056BBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EA37431127CD9AF60056BBDA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					EA37431727CD9AF60056BBDA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = EA37430627CD9AF40056BBDA /* Build configuration list for PBXProject "haydi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA37430227CD9AF40056BBDA;
+			productRefGroup = EA37431327CD9AF60056BBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA37431127CD9AF60056BBDA /* haydi (iOS) */,
+				EA37431727CD9AF60056BBDA /* haydi (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA37431027CD9AF60056BBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA37432327CD9AF60056BBDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37431627CD9AF60056BBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA37432427CD9AF60056BBDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA37430E27CD9AF60056BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA37431B27CD9AF60056BBDA /* haydi.xcdatamodeld in Sources */,
+				EA37432127CD9AF60056BBDA /* Persistence.swift in Sources */,
+				EA37431D27CD9AF60056BBDA /* haydiApp.swift in Sources */,
+				EA37431F27CD9AF60056BBDA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA37431427CD9AF60056BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA37431C27CD9AF60056BBDA /* haydi.xcdatamodeld in Sources */,
+				EA37432227CD9AF60056BBDA /* Persistence.swift in Sources */,
+				EA37431E27CD9AF60056BBDA /* haydiApp.swift in Sources */,
+				EA37432027CD9AF60056BBDA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA37432527CD9AF60056BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA37432627CD9AF60056BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EA37432827CD9AF60056BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no-need.haydi";
+				PRODUCT_NAME = haydi;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA37432927CD9AF60056BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no-need.haydi";
+				PRODUCT_NAME = haydi;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA37432B27CD9AF60056BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no-need.haydi";
+				PRODUCT_NAME = haydi;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA37432C27CD9AF60056BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no-need.haydi";
+				PRODUCT_NAME = haydi;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA37430627CD9AF40056BBDA /* Build configuration list for PBXProject "haydi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA37432527CD9AF60056BBDA /* Debug */,
+				EA37432627CD9AF60056BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA37432727CD9AF60056BBDA /* Build configuration list for PBXNativeTarget "haydi (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA37432827CD9AF60056BBDA /* Debug */,
+				EA37432927CD9AF60056BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA37432A27CD9AF60056BBDA /* Build configuration list for PBXNativeTarget "haydi (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA37432B27CD9AF60056BBDA /* Debug */,
+				EA37432C27CD9AF60056BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA37430827CD9AF40056BBDA /* haydi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA37430927CD9AF40056BBDA /* Shared.xcdatamodel */,
+			);
+			currentVersion = EA37430927CD9AF40056BBDA /* Shared.xcdatamodel */;
+			path = haydi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA37430327CD9AF40056BBDA /* Project object */;
+}
